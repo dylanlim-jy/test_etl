@@ -13,4 +13,4 @@ def build_flow():
 
 if __name__ == "__main__":
     flow = build_flow()
-    flow.register()
+    flow.register(project_name="test etl")
